@@ -1,6 +1,8 @@
 import axios from 'axios';
 const state = {
   productItems: [],
+  // TODO : add loading state 
+  // TODO : add error state
 };
 const mutations = {
   UPDATE_PRODUCT_ITEMS(state, payload) {

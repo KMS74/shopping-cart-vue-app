@@ -3,6 +3,8 @@ import * as types from './mutation-types';
 
 const state = {
   cartItems: [],
+  // TODO : add loading state
+  // TODO : add error state
 };
 const mutations = {
   [types.UPDATE_CART_ITEMS](state, payload) {
